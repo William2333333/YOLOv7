@@ -1,7 +1,7 @@
 # YOLOv7
 Group member: Yihao Liao & Adekunle Timothy ADEWOYE
 
-The AIA project: 1.Modification of YOLOv7 2. Comparision between YOLOv5(if I have more time)
+The AIA project: 1.Modification of YOLOv7 2. Comparision between YOLOv5
 
 ## Jobs we have done
 1. Understanding of YOLOv7
