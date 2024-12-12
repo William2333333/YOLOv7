@@ -2074,10 +2074,6 @@ class DySample(nn.Module):
             B, 2, -1, self.scale * H, self.scale * W).permute(0, 2, 3, 4, 1).contiguous().flatten(0, 1) # Reshapes the coordinates tensor for pixel shuffle, performs pixel shuffle, and then reshapes it back to the desired format for grid_sample
         return F.grid_sample(x.reshape(B * self.groups, -1, H, W), coords, mode='bilinear',
                              align_corners=False, padding_mode="border").view(B, -1, self.scale * H, self.scale * W)
-        # 重新设置输入张量 x，使用计算的坐标执行双线性采样，并将输出重新设置为原始形状
-        # coords可以理解为一张坐标图，记录了输入特征图x上每个像素点经过采样后得到的新坐标。coords是根据原始坐标和offset来计算新的采样位置的。
-        # coords先用meshgrid and stack生成规则坐标网格以表示原始特征图上像素点的坐标，然后添加offset得到新坐标，为了防止非整数坐标无法满足grid_sample进行归一化；
-        # 继续进行pixel shuffle，以便对特征图进行上采样或者下采样；最后输入到grid_sample中作为grid参数，指导grid_sample根据这个坐标采样出新的特征图。
         
         
     def forward_lp(self, x):
