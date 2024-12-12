@@ -10,9 +10,9 @@ The AIA project: 1.Modification of YOLOv7 2. Comparision between YOLOv5(if I hav
 4. Finish the training part for the modified YOLOv7 model
 
 ## Jobs we still need to do
-1.Compare the YOLOv5 and the YOLOv7 and the modified YOLOv7
-2.finish the testing part and produce the chart
-3.complete the presentation slides
+1. Compare the YOLOv5 and the YOLOv7 and the modified YOLOv7
+2. Finish the testing part and visulize the results
+3. Complete the presentation slides
 
 
 ## How to train the modified model
