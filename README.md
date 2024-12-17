@@ -1,7 +1,7 @@
 # YOLOv7
 Group member: Yihao Liao & Adekunle Timothy ADEWOYE
 
-The AIA project: 1.Modification of YOLOv7 2. Comparision between YOLOv5
+The AIA project: 1.Modification of YOLOv7 
 
 ## Jobs we have done
 1. Understanding of YOLOv7
@@ -10,7 +10,7 @@ The AIA project: 1.Modification of YOLOv7 2. Comparision between YOLOv5
 4. Finish the training part for the modified YOLOv7 model
 
 ## Jobs we still need to do
-1. Compare the YOLOv5 and the YOLOv7 and the modified YOLOv7
+1. Compare the YOLOv7 and the modified YOLOv7
 2. Finish the testing part and visulize the results
 3. Complete the presentation slides
 
